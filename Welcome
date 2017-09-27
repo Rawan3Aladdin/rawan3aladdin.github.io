@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0;
+      }
+      
+      .header {
+        background-color: maroon;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+      
+      .footer {
+        background-color: #6E836E;
+        color: white;
+        padding: 15px;
+      }
+      
+      .column {
+        float: left;
+        padding: 15px;
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .sidemenu {
+        width: 25%;
+      }
+      
+      .content {
+        width: 75%;
+      }
+      
+      .sidemenu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .sidemenu li a {
+        margin-bottom: 4px;
+        display: block;
+        padding: 8px;
+        background-color: #eee;
+        text-decoration: none;
+        color: #666;
+      }
+      
+      .sidemenu li a:hover {
+        background-color: #6E836E;
+        color: white;
+      }
+      
+      .sidemenu li a.active {
+        background-color: maroon;
+        color: white;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+
+    <div class="clearfix">
+      <div class="column sidemenu">
+        <ul>
+          <li><a href="#Clubs and Teams">Clubs and Teams</a></li>
+          <li><a href="#Welcome to Enver Creek" class="active">Welcome to Enver Creek</a></li>
+          <li><a href="#Different departments at Enver">Different departments at Enver</a></li>
+
+        </ul>
+      </div>
+
+      <div class="column content">
+        <div class="header">
+          <h1>Welcome to Enver Creek</h1>
+        </div>
+        <h1>Enver Creek</h1>
+        <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+
+        <p>
+         <b>Address:</b> 
+          <br /> 14505 84 Ave, Surrey, BC V3S 8X2<br /><br />
+          <b>Contact Us</b><br />
+          Tel: (604) 543-8149<br />
+          Fax:(604)-543-9762<br />
+         
+          
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p> At Enver Creek, our top priority is our students and their education for a successful future. Our aim is to improve their skills in all classes provided at this school.</p>
+    </div>
+    </body>
+    </html>
