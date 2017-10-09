@@ -11,16 +11,14 @@ body {
 }
 
 .topnav {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   width: 100%;
   overflow: hidden;
   background-color: #BBE6E3;
+  z-index: 3;
 }
 
 .topnav a {
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   float: right;
   display: block;
@@ -48,6 +46,7 @@ body {
 .header h1 {
   padding: 0px;
   left: 480px;
+  top: 50px;
   font-size: 45px;
 }
 
@@ -55,6 +54,7 @@ body {
   padding: 100px;
   left: 430px;
   font-size: 30px;
+  top: 150px;
 }
 
 .header h1,
@@ -81,6 +81,7 @@ h3 {
 
 .first {
   paragraph-indent: 40px;
+  top: 700px;
   text-align: center;
   padding: 200px;
 }
@@ -122,12 +123,11 @@ h3 {
   font-size: 20px;
   overflow: hidden;
   float: center;
-  display: block;
-  padding: 10px;
   text-align: center;
   left: 0;
   bottom: 0;
 }
+
 
   </style>
 </head>
