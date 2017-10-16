@@ -84,6 +84,7 @@ body {
   margin: 0;
   overflow: hidden;
   background-color: #BBE6E3;
+  z-index: 3;
 }
 
 .topnav a {
@@ -117,15 +118,17 @@ body {
   padding: 200px;
 }
 
-
+#special {
+  text-align: left;
+}
 /* image gallery */
 
 .gallery {
-  margin: 10px;
+  margin: 5px;
   border: 1px solid #F99238;
-  float: center;
-  width: 185px;
-  height: 220px;
+  float: left;
+  width: 200px;
+  height: 240px;
   background-color: #F99238;
 }
 
@@ -133,9 +136,11 @@ body {
   width: 100%;
   height: auto;
 }
+#peka {
+  height: 50%;
+}
 #goulash {
-  margin: 10px;
-  height: 77%;
+  height: 70%;
 }
 .gallery h4 {
   background-color: #F99238;
@@ -147,6 +152,7 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 20px;
   overflow: hidden;
+  z-index: 3;
   display: block;
   padding: 15px;
   text-align: center;
@@ -157,7 +163,7 @@ body {
   </style>
 
 <body>
-   <div class="topnav">
+  <div class="topnav">
     <h5>Nadalina</h5>
     <a href="#home">Info.</a>
     <a href="#news">Menu</a>
@@ -185,7 +191,7 @@ body {
   <div class="first">
     <p>
       Welcome to Nadalina, here we serve only the finest quality ingredients
-      <br /> to our wonderful customers. We are currently located in Vancouver in the lovely Coal Harbour
+      <br /> to our wonderful customers. Our main location is currently located in Vancouver in the lovely Coal Harbour
       <br /> near Canada Place.</p>
     <p>
       <b>"Amazing Experience"</b>
@@ -223,21 +229,14 @@ body {
 
       <h4>
     <b>štrukli</b><br />
-      <img id="peka" src="http://cdn.kimkim.com/images/articles/croatia/article4/Preparing-And-Cooking-Of-Octopus.jpg">
-
-     <h4>
-       <b>Beef Goulash</b><br />
-       (Rich Beef Stew)
-        </h4>
-        </div>
+   (Baked filled Pastry)
+    </h4>
     </div>
-    <br />
-    <br />
-    <div id="footer">
-      <p>
-        In our restaurant, we are very passionate about the taste of our food and we absolutely adore our customers and care
-        for for their overall experience at Nadalina.
-      </p>
+    <div class="gallery">
+      <img id="goulash" src="http://cdn.hairybikers.com/uploads/images/_recipeImage/BeefGoulash.jpg">
+
+      <h4>
+    <b>Beef Goulash</b><br />
 </body>
     </html>
 
